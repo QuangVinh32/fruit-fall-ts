@@ -1,0 +1,46 @@
+{
+    "options": [
+        {
+            "optionId": 1,
+            "isAnswer": false,
+            "value": 1,
+            "questionId": 1
+        },
+        {
+            "optionId": 2,
+            "isAnswer": true,
+            "value": 2,
+            "questionId": 1
+        },
+        {
+            "optionId": 3,
+            "isAnswer": false,
+            "value": 5,
+            "questionId": 1
+        },
+        {
+            "optionId": 4,
+            "isAnswer": false,
+            "value": 5,
+            "questionId": 2
+        },
+        {
+            "optionId": 5,
+            "isAnswer": true,
+            "value": 4,
+            "questionId": 2
+        },
+        {
+            "optionId": 6,
+            "isAnswer": false,
+            "value": 5,
+            "questionId": 2
+        },
+        {
+            "optionId": 7,
+            "isAnswer": true,
+            "value": 1,
+            "questionId": 3
+        }
+    ]
+}

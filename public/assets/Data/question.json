@@ -1,0 +1,65 @@
+{
+    "questions": [
+        {
+            "questionId": 1,
+            "state": true,
+            "levelId": 1,
+            "text": "apple"
+        },
+        {
+            "questionId": 2,
+            "state": false,
+            "levelId": 1,
+            "text": "cherry"
+        },
+        {
+            "questionId": 3,
+            "state": true,
+            "levelId": 2,
+            "text": "kiwi"
+        },
+        {
+            "questionId": 4,
+            "state": false,
+            "levelId": 2,
+            "text": "lemon"
+        },
+        {
+            "questionId": 5,
+            "state": true,
+            "levelId": 3,
+            "text": "lime"
+        },
+        {
+            "questionId": 6,
+            "state": true,
+            "levelId": 3,
+            "text": "mango"
+        },
+        {
+            "questionId": 7,
+            "state": true,
+            "levelId": 3,
+            "text": "orrange"
+        },
+        {
+            "questionId": 8,
+            "state": true,
+            "levelId": 3,
+            "text": "peache"
+        },
+        {
+            "questionId": 9,
+            "state": true,
+            "levelId": 3,
+            "text": "pear"
+        },
+        {
+            "questionId": 10,
+            "state": true,
+            "levelId": 3,
+            "text": "star"
+        }
+
+    ]
+}
