@@ -39,8 +39,8 @@
     "fruits": [
         {
             "fruitId": 1,
-            "positionX": 80,
-            "positionY": 100,
+            "positionX":80 ,
+            "positionY":100,
             "width": 40,
             "height": 50,
             "fruitTypeId": 1,
