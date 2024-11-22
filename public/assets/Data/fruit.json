@@ -2,7 +2,7 @@
     "fruitTypes": [
         {
             "fruitTypeId": 1,
-            "name": "Apple",
+            "name": "Applwwwe",
             "texture": "apple"
         },
         {
@@ -85,8 +85,9 @@
             "levelId": 1
 
         },
+
         {
-            "fruitId": 6,
+            "fruitId": 1,
             "positionX": 80,
             "positionY": 100,
             "width": 40,
@@ -95,7 +96,7 @@
             "levelId": 2
         },
         {
-            "fruitId": 7,
+            "fruitId": 2,
             "positionX": 210,
             "positionY": 100,
             "width": 40,
@@ -105,7 +106,7 @@
             
         },
         {
-            "fruitId": 8,
+            "fruitId": 3,
             "positionX": 350,
             "positionY": 100,
             "width": 40,
@@ -114,7 +115,7 @@
             "levelId": 2
         },
         {
-            "fruitId": 10,
+            "fruitId": 4,
             "positionX": 485,
             "positionY": 100,
             "width": 40,
@@ -124,13 +125,61 @@
 
         },
         {
-            "fruitId": 11,
+            "fruitId": 5,
             "positionX": 620,
             "positionY": 100,
             "width": 40,
             "height": 55,
             "fruitTypeId": 8,
             "levelId": 2
+
+        },
+        {
+            "fruitId": 1,
+            "positionX": 80,
+            "positionY": 100,
+            "width": 50,
+            "height": 50,
+            "fruitTypeId": 7,
+            "levelId": 3
+        },
+        {
+            "fruitId": 2,
+            "positionX": 210,
+            "positionY": 100,
+            "width": 50,
+            "height": 50,
+            "fruitTypeId": 7,
+            "levelId": 3
+            
+        },
+        {
+            "fruitId": 3,
+            "positionX": 350,
+            "positionY": 100,
+            "width": 50,
+            "height": 50,
+            "fruitTypeId": 7,
+            "levelId": 3
+        },
+        {
+            "fruitId": 4,
+            "positionX": 485,
+            "positionY": 100,
+            "width": 50,
+            "height": 50,
+            "fruitTypeId": 7,
+            "levelId": 3
+
+        },
+        {
+            "fruitId": 5,
+            "positionX": 620,
+            "positionY": 100,
+            "width": 50,
+            "height": 50,
+            "fruitTypeId": 7,
+            "levelId": 3
 
         }
     ]

@@ -4,61 +4,35 @@
             "questionId": 1,
             "state": true,
             "levelId": 1,
-            "text": "apple"
+            "text": "How many apples did you catch?",
+            "positionX": 130,
+            "positionY": 410
         },
         {
             "questionId": 2,
-            "state": false,
-            "levelId": 1,
-            "text": "cherry"
+            "state": true,
+            "levelId": 100,
+            "text": "Great Job! Now catch pears.",
+            "positionX": 130,
+            "positionY": 410
         },
         {
             "questionId": 3,
             "state": true,
             "levelId": 2,
-            "text": "kiwi"
+            "text": "How many pears did you catch?",
+            "positionX": 130,
+            "positionY": 410
+            
         },
-        {
-            "questionId": 4,
-            "state": false,
-            "levelId": 2,
-            "text": "lemon"
-        },
+   
         {
             "questionId": 5,
             "state": true,
             "levelId": 3,
-            "text": "lime"
-        },
-        {
-            "questionId": 6,
-            "state": true,
-            "levelId": 3,
-            "text": "mango"
-        },
-        {
-            "questionId": 7,
-            "state": true,
-            "levelId": 3,
-            "text": "orrange"
-        },
-        {
-            "questionId": 8,
-            "state": true,
-            "levelId": 3,
-            "text": "peache"
-        },
-        {
-            "questionId": 9,
-            "state": true,
-            "levelId": 3,
-            "text": "pear"
-        },
-        {
-            "questionId": 10,
-            "state": true,
-            "levelId": 3,
-            "text": "star"
+            "text": "How many orranges did you catch?",
+            "positionX": 130,
+            "positionY": 410
         }
 
     ]

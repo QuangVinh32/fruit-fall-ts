@@ -15,8 +15,9 @@ export default class FruitController {
         return this.fruits;
     }
 
-    getFruitById(fruitId: number): FruitDTO | undefined {
-        return this.fruits.find(fruit => fruit.fruitId === fruitId);
+    getFruitDTOById(fruitId: number, levelId: number): FruitDTO | undefined {
+        return this.fruits.find(fruit => fruit.fruitId === fruitId && fruit.levelId === levelId);
     }
+    
 
 }

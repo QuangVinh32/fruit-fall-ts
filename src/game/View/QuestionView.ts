@@ -12,7 +12,7 @@ export default class QuestionView extends Phaser.GameObjects.Container{
         this.createQuestion();
     }
     createQuestion(){
-        this.textQuestion = this.scene.add.text(-60, -80, this.questionData.text, { fontSize: '30px Arial', color: 'black' });
+        this.textQuestion = this.scene.add.text(this.questionData.positionX,this.questionData.positionY, this.questionData.text, { fontSize: '30px Arial', color: 'black',fontStyle:"bold" });
         this.add(this.textQuestion)
     }
 

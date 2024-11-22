@@ -8,7 +8,7 @@ export default class LoadingScene extends Phaser.Scene {
     }
     async create() {
 
-        const titleText = this.add.text(-60, -80, 'Fruit Fall', { fontSize: '30px Arial', color: 'black' });
+        const titleText = this.add.text(-60, -80, 'Fruit Fall', { fontSize: '30px Arial', fontStyle:"bold", color: 'black' });
         const loaderImage = this.add.image(0, 0, 'loader')
             .setDisplaySize(80, 80)
             .setOrigin(0.5, 0.5);  
@@ -21,6 +21,8 @@ export default class LoadingScene extends Phaser.Scene {
         this.cameras.main.once('camerafadeoutcomplete', () => {
             this.scene.start("LevelScene");
             this.scene.launch("PlayGameScene");
+            // this.scene.start("ResultScene");
+
     
         });
   

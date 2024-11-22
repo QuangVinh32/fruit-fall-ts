@@ -3,13 +3,51 @@ export default class QuestionDTO{
     private _state: boolean;
     private _levelId: number;
 	private _text: string;
+    private _positionX: number;
+    private _positionY: number;
 
-	constructor(questionId: number, state: boolean, levelId: number, text: string) {
+	constructor(questionId: number, state: boolean, levelId: number, text: string, positionX: number, positionY: number) {
 		this._questionId = questionId;
 		this._state = state;
 		this._levelId = levelId;
 		this._text = text;
+        this._positionX = positionX;
+        this._positionY = positionY;
+        
 	}
+
+    /**
+     * Getter positionX
+     * @return {number}
+     */
+	public get positionX(): number {
+		return this._positionX;
+	}
+
+    /**
+     * Getter positionY
+     * @return {number}
+     */
+	public get positionY(): number {
+		return this._positionY;
+	}
+
+    /**
+     * Setter positionX
+     * @param {number} value
+     */
+	public set positionX(value: number) {
+		this._positionX = value;
+	}
+
+    /**
+     * Setter positionY
+     * @param {number} value
+     */
+	public set positionY(value: number) {
+		this._positionY = value;
+	}
+    
 
     /**
      * Getter questionId

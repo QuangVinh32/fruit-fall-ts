@@ -2,13 +2,94 @@ export default class OpitionDTO{
     private _optionId: number;
     private _isAnswer: boolean;
     private _value: number;
+    private _positionX: number;
+    private _positionY: number;
+    private _width: number;
+    private _height: number;
     private _questionId: number;
 
-	constructor(optionId: number, isAnswer: boolean, value: number, questionId: number) {
+
+
+	constructor(optionId: number, isAnswer: boolean, value: number,questionId: number, positionX: number, positionY: number, width: number,height : number) {
 		this._optionId = optionId;
 		this._isAnswer = isAnswer;
 		this._value = value;
+        this._questionId = questionId;
+        this._positionX = positionX;
+        this._positionY = positionY;
+        this._width = width;
+		this._height = height;
+    }
+
+
+
+
+    /**
+     * Getter positionX
+     * @return {number}
+     */
+	public get positionX(): number {
+		return this._positionX;
 	}
+
+    /**
+     * Getter positionY
+     * @return {number}
+     */
+	public get positionY(): number {
+		return this._positionY;
+	}
+
+    /**
+     * Getter width
+     * @return {number}
+     */
+	public get width(): number {
+		return this._width;
+	}
+
+    /**
+     * Getter height
+     * @return {number}
+     */
+	public get height(): number {
+		return this._height;
+	}
+
+    /**
+     * Setter positionX
+     * @param {number} value
+     */
+	public set positionX(value: number) {
+		this._positionX = value;
+	}
+
+    /**
+     * Setter positionY
+     * @param {number} value
+     */
+	public set positionY(value: number) {
+		this._positionY = value;
+	}
+
+    /**
+     * Setter width
+     * @param {number} value
+     */
+	public set width(value: number) {
+		this._width = value;
+	}
+
+    /**
+     * Setter height
+     * @param {number} value
+     */
+	public set height(value: number) {
+		this._height = value;
+	}
+    
+
+
 
     /**
      * Getter questionId
